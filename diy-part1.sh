@@ -10,6 +10,6 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 # Uncomment a feed source
-sed -i "/helloworld/d" "feeds.conf.default"
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
-echo "src-git openclash https://github.com/vernesong/OpenClash.git" >> "feeds.conf.default"
+#sed -i "/helloworld/d" "feeds.conf.default"
+#echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+#echo "src-git openclash https://github.com/vernesong/OpenClash.git" >> "feeds.conf.default"
